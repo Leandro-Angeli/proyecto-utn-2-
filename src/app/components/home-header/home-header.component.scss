@@ -1,0 +1,91 @@
+/* header HOME START */
+.header{ background-image:linear-gradient(
+    282deg
+    , #b7b4b436, #02020275), url('../../../assets/img/background-retina-compressed.jpg');
+            
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           position: relative;
+            width: 100%;
+            height: var(--section-height);
+            padding-top: var(--default-top-padding);
+           
+   }
+   
+   
+  
+  .container{ height: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+  
+   }
+  .cart-button{ background-color: var(--red);
+                color:var(--white);
+                display:inline-block;
+                padding:.5rem 1rem;
+                transform: translate3d(0, 0, 0);
+                position:sticky; 
+                top: 25%;
+                left: 100%;
+                transition: all .8s cubic-bezier(0.075, 0.82, 0.165, 1);
+              
+              
+                z-index: 2;
+              
+   }
+   .cart-button:hover{ padding-right: 2rem;
+  
+    }
+  
+  
+  
+  
+   .hero-title, .us-title, .promo-title{ 
+     color:var(--white);
+     display:inline-block;
+     font-family: 'Courgette', sans-serif;
+     font-size: 13vw;
+     text-shadow:
+     -.5px -.5px 0 var(--black),  
+      .5px -.5px 0 var(--black),
+      -.5px .5px 0 var(--black),
+       .5px .5px 0 var(--black);
+  
+   }
+   
+   .hero-title span,.promo-title span {font-family: 'Courgette', sans-serif;
+            color:var(--red);
+  
+   }
+   .us-title{z-index: 1;
+    font-size: 10vw;
+   
+  
+  }
+  .us-title span {font-family: 'Courgette', sans-serif; 
+                  color:var(--red);
+                  
+  
+   }
+   
+   .promo-title{font-size:10vw;
+                z-index: 1;
+     
+    }
+  
+   /* header HOME END */
+
+
+   @media (max-width:575.98px){
+    .header{  background-image:linear-gradient(
+     282deg
+     , #b7b4b436, #02020275), url('../../../assets/img/background-mobile-compressed.jpg');
+  
+     }
+  
+   
+   }

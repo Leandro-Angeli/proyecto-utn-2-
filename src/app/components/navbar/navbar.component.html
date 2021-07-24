@@ -5,8 +5,8 @@
     <a href="#main" class="nav-logo-link" > 
     <img class="nav-logo" src="../../../assets/img/logo-nav-path.svg" alt="kawai sushi main" srcset="">
     </a>
-    <button class="dropdown-btn" id='dropdownBtn' aria-label="Menu secciones" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars dropdown-btn-icon"></i></button>  
-    <ul class='nav-menu'id='navMenu'>
+    <button class="dropdown-btn" id='dropdownBtn' aria-label="Menu secciones" aria-haspopup="true" aria-expanded="false"  (click)="shouldShow = !shouldShow;"><i class="fas fa-bars dropdown-btn-icon"></i></button>  
+    <ul class='nav-menu'id='navMenu' [ngClass]="{show: shouldShow, hide: !shouldShow}">
         <li class='nav-menu-item'> <a href="index.html" class='nav-menu-item-link' title='Home'> Home</a></li>
         <li class='nav-menu-item'> <a href="nosotros.html" class='nav-menu-item-link' title='Nosotros'> Nosotros</a></li>
         <li class='nav-menu-item'> <a href="#" class='nav-menu-item-link' title='Menu'> Menu</a></li>

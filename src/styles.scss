@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Courgette', sans-serif;
+font-family: 'Lato', sans-serif; */
+
+:root{ --red:#D60B37;
+       --black: #333333!important;    
+       --white:#f8f8f9!important;
+       --blue:#0B37D6!important;
+       --default-padding:2rem;
+       --section-height:100vh;
+       --default-top-padding:8rem;
+       --title-font:'Courgette', sans-serif;     
+       
+       --btn-padding:1rem 2rem;
+ }
+
+
+ /*SKIP TO MAIN CONTENT*/
+
+ 
+
+
+
+   .screen-only{position: absolute!important;
+          height:1px;
+          width: 1px;
+          overflow: hidden;
+          clip: rect(1px 1px 1px 1px); 
+          clip: rect(1px ,1px, 1px, 1px); 
+          white-space: nowrap;
+
+    }
+   .screen-only-focus{    height: 3rem;
+                        width: auto;  
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;      
+
+}  
+.skip-to-main-link{background-color: var(--white);
+  border:1px solid var(--red); 
+  padding: .2rem .3rem;
+  outline: 1px solid var(--red);
+
+}
+.palette-change-btn{background-color: var(--white);
+                    padding:.2rem .3rem;
+                    border:1px solid var(--red);
+  
+ }
+  
+  
+    /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+    @media (prefers-reduced-motion: reduce) {
+      html:focus-within {
+       scroll-behavior: auto;
+      }
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  
+       /* MEDIA QUERY PARA APAGAR ANIMACIONES */
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+    
+
+ }
+ 
+
+ body{ background-color: var(--white);
+        overflow-x: clip;
+
+  }
+
+
+ ul{ 
+     list-style: none;
+  }
+
+  a{text-decoration: none;
+    color:inherit;
+
+   }

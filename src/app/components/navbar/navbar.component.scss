@@ -8,6 +8,9 @@
     top: 3rem;
     display:none;
     font-size: 1rem;
+    &:hover{cursor: pointer;
+
+     }
 
 }
 
@@ -75,6 +78,14 @@ margin-left: auto;
              
 
 }
+
+/* SHOW HIDE MENU*/ 
+
+
+
+/* SHOW HIDE MENU*/ 
+
+
 /*KEYFRAME ANIMATION START*/
 @keyframes animateNavItem {
 0%{width: 0;
@@ -106,5 +117,32 @@ background-color: var(--red);
 
 /*NAV END*/
 
+@media (max-width:767.98px){
+    .dropdown-btn{display:block;
+   
+       }
+       .show{  position: absolute;
+                display: flex;
+                flex-direction: column;
+                top: 118px;
+                width: 100vw;
+                background-color: var(--black);
+                left: 0;
+                text-align: center;
+                transition: all .2s;
+                li{padding: .7rem;
+                   
 
+                 }
+               
 
+       }
+       .hide{display:none;
+      
+        }   
+        .nav-menu-item-link:hover::before{display:none;
+
+        } 
+      
+
+}
