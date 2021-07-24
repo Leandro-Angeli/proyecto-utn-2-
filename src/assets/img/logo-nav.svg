@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="logo-nav.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 11.906249 2.6458334"
+   height="10"
+   width="45">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient898"
+       inkscape:collect="always">
+      <stop
+         id="stop894"
+         offset="0"
+         style="stop-color:#d60b37;stop-opacity:1;" />
+      <stop
+         id="stop896"
+         offset="1"
+         style="stop-color:#d60b9d;stop-opacity:0.85490197" />
+    </linearGradient>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient869">
+      <stop
+         id="stop867"
+         offset="0"
+         style="stop-color:#d60b37;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient853"
+       inkscape:collect="always">
+      <stop
+         id="stop849"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop851"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.30217442,0,-1.0183268)"
+       r="3.1160932"
+       fy="-1.4592856"
+       fx="4.3405294"
+       cy="-1.4592856"
+       cx="4.3405294"
+       id="radialGradient857"
+       xlink:href="#linearGradient853"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="-1.3884151"
+       x2="9.0606594"
+       y1="-1.2821093"
+       x1="4.380537"
+       id="linearGradient900"
+       xlink:href="#linearGradient898"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="124"
+     inkscape:window-height="860"
+     inkscape:window-width="1300"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="-8.5627373"
+     inkscape:cx="30.545798"
+     inkscape:zoom="7.9195959"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <text
+       id="text12"
+       y="1.3347285"
+       x="0.96856397"
+       style="font-size:10.5833px;line-height:1.25;font-family:Courgette;-inkscape-font-specification:Courgette;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="1.3347285"
+         x="0.96856397"
+         id="tspan10"
+         sodipodi:role="line" /></text>
+    <text
+       transform="translate(-1.1396606,2.6558134)"
+       id="text16"
+       y="-0.66145831"
+       x="1.4528459"
+       style="font-size:2.11667px;line-height:1.25;font-family:Courgette;-inkscape-font-specification:Courgette;white-space:pre;inline-size:0;opacity:0.999;fill:url(#linearGradient900);fill-opacity:1;stroke:#333333;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:1.2, 0.05;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:2.11667px;fill:url(#linearGradient900);fill-opacity:1;stroke:#333333;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:1.2, 0.05;stroke-dashoffset:0;stroke-opacity:1"
+         y="-0.66145831"
+         x="1.4528459"
+         id="tspan14">Kawai</tspan></text>
+    <text
+       transform="translate(-0.4009043,0.63476516)"
+       id="text904"
+       y="1.4699824"
+       x="7.1494598"
+       style="font-size:1.76389px;line-height:1.25;font-family:Courgette;-inkscape-font-specification:Courgette;white-space:pre;inline-size:0;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:1.2, 0.05;stroke-dashoffset:0"
+       xml:space="preserve"><tspan
+         style="font-size:2.11667px;fill:#f2f6fa;fill-opacity:1;stroke:#333333;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:1.2, 0.05;stroke-dashoffset:0;stroke-opacity:1"
+         y="1.4699824"
+         x="7.1494598"
+         id="tspan902">Sushi</tspan></text>
+  </g>
+</svg>
