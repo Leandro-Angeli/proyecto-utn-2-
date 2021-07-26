@@ -1,0 +1,54 @@
+.promo-header{background-image: url('../../../assets/img/promo-background-lg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--default-top-padding);
+    width: 100%;
+    height: var(--section-height);
+    position: relative;
+    text-align: center;
+
+}
+.promo-header::before{content: '';
+position: absolute;  
+background-image:url('../../../assets/img/pattern-us-background.png');
+display:block;
+width:100%;
+height: 100%;
+top: 0;
+
+
+}
+.promo-title{ 
+    color:var(--white);
+    display:inline-block;
+    font-family: 'Courgette', sans-serif;
+    
+    text-shadow:
+    -.5px -.5px 0 var(--black),  
+     .5px -.5px 0 var(--black),
+     -.5px .5px 0 var(--black),
+      .5px .5px 0 var(--black);
+      font-size: 10vw;
+        z-index: 1;
+ 
+  }
+ .promo-title span {font-family: 'Courgette', sans-serif;
+           color:var(--red);
+ 
+  }
+
+
+@media (max-width:1399.98px){
+    .promo-header {background-image: url('../../../assets/img/promo-background-md.jpg')
+   
+        }
+     } 
+
+     @media (max-width:767.98px){
+        .promo-header {background-image: url('../../../assets/img/promo-background-sm.jpg')
+        
+            }
+         }    

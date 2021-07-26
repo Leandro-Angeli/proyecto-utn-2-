@@ -9,6 +9,16 @@ import { HomeComponent } from './pages/home/home.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { PromocionesComponent } from './pages/promociones/promociones.component';
 import { HomeHeaderComponent } from './components/home-header/home-header.component';
+import { MenuComponent } from './pages/menu/menu.component';
+import { StaffComponent } from './pages/staff/staff.component';
+import { SucursalesComponent } from './pages/sucursales/sucursales.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { InstitucionalComponent } from './components/institucional/institucional.component';
+import { MenuHomeComponent } from './components/menu-home/menu-home.component';
+import { FormComponent } from './components/form/form.component';
+import { CartButtonComponent } from './components/cart-button/cart-button.component';
+import { PromoHeaderComponent } from './components/promo-header/promo-header.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +28,17 @@ import { HomeHeaderComponent } from './components/home-header/home-header.compon
     HomeComponent,
     NosotrosComponent,
     PromocionesComponent,
-    HomeHeaderComponent
+    HomeHeaderComponent,
+    MenuComponent,
+    StaffComponent,
+    SucursalesComponent,
+    ContactoComponent,
+    InstitucionalComponent,
+    MenuHomeComponent,
+    FormComponent,
+    CartButtonComponent,
+    PromoHeaderComponent
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,121 @@
+/* MENU START */
+.menu{ padding:var(--default-padding); 
+    padding-top: var(--default-top-padding);  
+    background-color: var(--black);
+    
+  }
+  .menu-title{border-bottom:1px solid;
+              display:inline-block;
+              color: var(--white);
+  
+  
+   }
+  .menu-title, .menu-title span{font-family: var(--title-font);
+                              
+  
+  
+  }
+  .menu-title span{color: var(--red);
+                  border-bottom: 1px solid;
+                
+  
+   }
+   .menu-container{ color: var(--white);
+                    display:grid;
+                   grid-template-columns:  repeat(3,1fr );
+                   gap: var(--default-padding);
+  
+   }
+   
+   .menu-container-item-title{padding-top: var(--default-padding);
+                              font-style: italic;  
+  
+   }
+   .menu-container-item-text{line-height: 1.9rem;
+  
+   }
+   .menu-container-item-title{text-transform: uppercase;
+                              border-bottom: 1px dotted;
+                              display:inline-block;  
+  
+    }
+  .menu-btn-link-container{text-align: center;
+                          padding-top: var(--default-padding);
+                         
+  
+   }
+  .menu-link-btn{margin: var(--default-padding);
+                display:inline-block;
+                color: transparent;
+                background-color: var(--red);
+                padding: var( --btn-padding);
+                text-transform: uppercase;
+                position: relative;
+  
+  
+  
+   }
+   .menu-link-btn:hover{padding:1rem 6rem;
+                        transition: all .2s ease-in-out;
+  
+  }
+   .menu-link-btn::before{
+          content: 'menu';
+          color: var(--white);
+          display:inline-block;
+          position:absolute;
+          top: 0;
+          right: -20px;
+          top: 27%;
+          right: 30%;
+          transition: all .2s ease-in-out;
+          pointer-events: none;
+    }
+  
+  
+    .menu-link-btn:hover::before{
+            transform:translateY(2rem); 
+            opacity: 0;
+            visibility: hidden;
+            transition: all .03s ease-in-out;
+     }
+  
+  
+     .menu-link-btn::after{
+      content: 'conoce nuestra carta';
+      color: var(--white);
+      display: none;
+      opacity: 0;
+      position: absolute;
+       visibility: hidden; 
+      right: -30%;
+      top: -70%;
+      display:inline-block;
+      transition: all .1s ease ;
+      width: max-content;
+      pointer-events: none;
+       opacity: 0; 
+    
+  }
+  .menu-link-btn:hover::after{
+         transform:translateY(3.3rem) translateX(-5.5rem); 
+         opacity: 1;
+         transition: all .2s ease-in-out;
+         visibility: visible;
+       
+        
+  }
+  
+  
+  
+  
+  
+  /* MENU END */
+  @media (max-width: 991.98px) { 
+    .menu-container{  grid-template-columns:repeat(auto-fit, minmax(270px, 1fr) );
+  
+    } 
+}
+  
+  
+  
