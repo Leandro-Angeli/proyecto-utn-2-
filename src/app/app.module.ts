@@ -18,7 +18,14 @@ import { MenuHomeComponent } from './components/menu-home/menu-home.component';
 import { FormComponent } from './components/form/form.component';
 import { CartButtonComponent } from './components/cart-button/cart-button.component';
 import { PromoHeaderComponent } from './components/promo-header/promo-header.component';
-
+import { PromoMainComponent } from './components/promo-main/promo-main.component';
+import { PromosComponent } from './components/promos/promos.component';
+import { NosotrosHeaderComponent } from './components/nosotros-header/nosotros-header.component';
+import { NosotrosMainComponent } from './components/nosotros-main/nosotros-main.component';
+import { NosotrosTestimonialComponent } from './components/nosotros-testimonial/nosotros-testimonial.component';
+import { NosotrosSocialMediaComponent } from './components/nosotros-social-media/nosotros-social-media.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -37,12 +44,20 @@ import { PromoHeaderComponent } from './components/promo-header/promo-header.com
     MenuHomeComponent,
     FormComponent,
     CartButtonComponent,
-    PromoHeaderComponent
+    PromoHeaderComponent,
+    PromoMainComponent,
+    PromosComponent,
+    NosotrosHeaderComponent,
+    NosotrosMainComponent,
+    NosotrosTestimonialComponent,
+    NosotrosSocialMediaComponent,
+    SliderComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
