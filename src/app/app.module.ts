@@ -29,6 +29,8 @@ import { SwiperModule } from 'swiper/angular';
 import { MenuMainComponent } from './components/menu-main/menu-main.component';
 import {HttpClientModule} from '@angular/common/http';
 import { MenuInfoComponent } from './components/menu-info/menu-info.component';
+import { StaffHeaderComponent } from './components/staff-header/staff-header.component';
+import { StaffMainComponent } from './components/staff-main/staff-main.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,9 @@ import { MenuInfoComponent } from './components/menu-info/menu-info.component';
     NosotrosSocialMediaComponent,
     SliderComponent,
     MenuMainComponent,
-    MenuInfoComponent
+    MenuInfoComponent,
+    StaffHeaderComponent,
+    StaffMainComponent
 
   ],
   imports: [

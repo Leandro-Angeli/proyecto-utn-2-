@@ -1,0 +1,30 @@
+ <swiper     [slidesPerView]="3"
+            [config]="swiperConfig"
+            (swiper)="onSwiper($event)"
+            (slideChange)="onSlideChange()"
+            class='swiper-wrapper'
+            [loop]='true'
+            [navigation]="true"
+            [pagination]="{ clickable: true }"
+            [scrollbar]="{ draggable: true }"
+ 
+    >
+
+
+    
+        <ng-template   [config]="swiperConfig" swiperSlide class='swiper-slide' *ngFor='let colaborador of staff ;let i = index ' >
+                    <div >
+                        <h3>{{colaborador.name | titlecase}}</h3>
+                        <p> {{colaborador.email}}</p>
+                          <img alt='employee'src='../../../assets/img/staff/{{i}}.jpg'> 
+                    </div>
+            </ng-template>
+     
+</swiper> 
+
+
+
+  
+
+ 
+
