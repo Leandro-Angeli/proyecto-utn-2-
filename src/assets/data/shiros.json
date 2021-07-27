@@ -1,0 +1,38 @@
+[
+    { "nombre": "Queso phila y tomates secos y aceite de albahaca",
+        "ingredientes": "Finas lonjas de salmón rosado arrollado con queso phila y tomates secos.",
+        "link":"phila"
+     },  
+     { "nombre": "Queso phila y shiitake",
+       "ingredientes": "Finas lonjas de salmón rosado arollado relleno de queso phila y shiitake.",
+       "link":"shiitake"
+    },  
+    {"nombre":"Queso phila y negui",
+       "ingredientes":"Finas lonjas salmón rosado arrollado con queso philadelphia y negui.",
+       "link":"negui" 
+
+
+    },
+    {"nombre":"Langostinos",
+       "ingredientes": "Finas lonjas de salmón rosado arrollado con queso philadelphia, langostinos, palta y negui.",
+       "link":"langostinos" 
+
+
+    },
+    {"nombre":"Queso phila y atun",
+       "ingredientes": "Finas lonjas de salmón rosado arrollado con queso philadelphia, atún picante y negui.",
+       "link":"atun" 
+
+
+    },
+    {"nombre":"Pulpo",
+       "ingredientes": "Lonjas de Pulpo delicadamente cortadas.",
+       "link":"pulpo" 
+
+
+    }
+      
+   
+   
+
+]

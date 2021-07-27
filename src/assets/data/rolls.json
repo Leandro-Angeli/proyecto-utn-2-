@@ -1,0 +1,38 @@
+[
+    { "nombre": "Caesar Roll",
+        "ingredientes": "Pollo y hojas verdes, con lluvia de parmesano y salsa Caesar.",
+        "link":"caesar"
+     },  
+     { "nombre": "BBQ Roll",
+       "ingredientes": "Cerdo glaseado con barbacoa, kiuri y queso phila cubierto con",
+       "link":"bbq"
+    },  
+    {"nombre":"Bacon Roll",
+       "ingredientes":"Pollo, palta y cebolla caramelizada coronado con crema de ajo",
+       "link":"bacon" 
+
+
+    },
+    {"nombre":"Natsu Roll",
+       "ingredientes": "Langostinos salteados en oliva y ajo, queso phila y mango.",
+       "link":"natsu" 
+
+
+    },
+    {"nombre":"Sweet Onion",
+       "ingredientes": "Cebolla caramelizada, palta y salmón cubierto con tamago y queso de ajo.",
+       "link":"onion" 
+
+
+    },
+    {"nombre":"Ibushi Sake",
+       "ingredientes": "Salmón ahumado, queso phila y langostino cocido.",
+       "link":"ibushi" 
+
+
+    }
+      
+   
+   
+
+]

@@ -7,9 +7,33 @@
             <h2>Entradas</h2>
             <div class="entradas-box">
                     <div *ngFor = 'let entrada of entradas' class='entrada'> 
-                        <h3>{{entrada.nombre}}</h3>
+                        <h3>{{entrada.nombre | titlecase}}</h3>
                         <img src=" ../../../assets/img/entradas/{{entrada.link}}.jpg" alt="" srcset="">
                         <p>{{entrada.ingredientes}}</p>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="rolls-container">
+            <h2>Rolls</h2>
+            <div class="rolls-box">
+                    <div *ngFor = 'let roll of rolls' class='rolls'> 
+                        <h3>{{roll.nombre | titlecase}}</h3>
+                        <img src=" ../../../assets/img/rolls/{{roll.link}}.jpg" alt="" srcset="">
+                        <p>{{roll.ingredientes}}</p>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="shiros-container">
+            <h2>Shiros</h2>
+            <div class="shiros-box">
+                    <div *ngFor = 'let shiro of shiros' class='shiros'> 
+                        <h3>{{shiro.nombre | titlecase}}</h3>
+                        <img src=" ../../../assets/img/shiros/{{shiro.link}}.jpg" alt="" srcset="">
+                        <p>{{shiro.ingredientes}}</p>
                     </div>
             </div>
         </div>
