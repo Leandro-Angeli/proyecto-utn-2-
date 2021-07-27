@@ -1,5 +1,5 @@
 /*SECTION PROMO START*/
-.promo-section-first-container{ 
+.promo-section-first-container{
 
 }
 .promo-section{padding-top: var(--default-top-padding);
@@ -30,7 +30,7 @@ padding-right:calc( var(--default-padding)*2);
 
 
 .promo-section-container{
-                       
+                        margin-bottom: calc(var(--default-padding)*2);
                         display: grid;
                         grid-template-columns: repeat( 3, 1fr );
                         gap: 1rem;
@@ -52,7 +52,7 @@ padding-right:calc( var(--default-padding)*2);
    
   }
   .promo-section-container-promo-box:nth-child(odd) .promo-section-promo-box-content p:first-child{
-    font-size: 3rem;
+   
     font-style: italic;
   }
 
@@ -64,19 +64,22 @@ padding-right:calc( var(--default-padding)*2);
  }
  .promo-section-container-promo-box:nth-child(even) .promo-section-promo-box-content p:first-child{
    color: var(--black);
-  font-size: 3rem;
+ 
   font-style: italic;
 }
 
 
 .promo-section-container-promo-box{padding:  var(--default-padding);
-                            
+                            font-size: 2.3vh;
                             display: flex;
                             justify-content: space-around;
                             align-items: center;
                            border:1px solid lightgrey;
-                            height: 22vw;
+                            text-align: center;
                             flex-direction: column;
+                            p:first-child{font-size: 5vh;
+
+                            }
                            
                            
                             

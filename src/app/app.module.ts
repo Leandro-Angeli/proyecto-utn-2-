@@ -26,6 +26,9 @@ import { NosotrosTestimonialComponent } from './components/nosotros-testimonial/
 import { NosotrosSocialMediaComponent } from './components/nosotros-social-media/nosotros-social-media.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SwiperModule } from 'swiper/angular';
+import { MenuMainComponent } from './components/menu-main/menu-main.component';
+import {HttpClientModule} from '@angular/common/http';
+import { MenuInfoComponent } from './components/menu-info/menu-info.component';
 
 @NgModule({
   declarations: [
@@ -51,13 +54,16 @@ import { SwiperModule } from 'swiper/angular';
     NosotrosMainComponent,
     NosotrosTestimonialComponent,
     NosotrosSocialMediaComponent,
-    SliderComponent
+    SliderComponent,
+    MenuMainComponent,
+    MenuInfoComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SwiperModule
+    SwiperModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

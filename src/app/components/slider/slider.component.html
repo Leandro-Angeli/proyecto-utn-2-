@@ -1,0 +1,42 @@
+
+ <section class="slide-container">
+    <div class="swiper-container">
+            <swiper
+            [slidesPerView]="3"
+            [config]="swiperConfig"
+            (swiper)="onSwiper($event)"
+            (slideChange)="onSlideChange()"
+            class='swiper-wrapper'
+            [loop]='true'
+            [navigation]="true"
+            [pagination]="{ clickable: true }"
+            [scrollbar]="{ draggable: true }"
+            
+            >
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-1-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-2-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-3-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-4-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-5-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-6-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-7-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+                    <ng-template swiperSlide class='swiper-slide'>
+                                <img src="../../../assets/img/slide/slide-img-8-small-compressed.jpg" alt="" class="slide-img">  
+                        </ng-template>
+            </swiper>
+        </div>    
+</section>

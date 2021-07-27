@@ -1,0 +1,20 @@
+section{padding:var(--default-padding);
+        padding-top: calc(var(--default-padding)*2);
+
+        h2{font-family: var(--title-font);
+            font-size: 2rem;
+            color: var(--red);
+            text-decoration: underline;
+            padding: var(--default-padding) 0;
+            
+
+         }
+         img{max-width:50%;
+
+          }
+          .entradas-box{    display: grid;
+            grid-template-columns: repeat(3 ,1fr);
+
+           }
+
+ }

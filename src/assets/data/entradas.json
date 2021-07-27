@@ -1,0 +1,39 @@
+
+ [
+     { "nombre": "kurispi",
+         "ingredientes": "Salmon rebozado en cereales fritos, relleno de phila,",
+         "link":"kurispi"
+      },  
+      { "nombre": "Koroke & Harusame",
+        "ingredientes": "Croquetas de langostino, shiitake y queso parmesano con ",
+        "link":"koroke"
+     },  
+     {"nombre":"Tiraditos de salmon",
+        "ingredientes": "Finas lonjas de salmón con leche de tigre y cilantro.",
+        "link":"salmon" 
+
+
+     },
+     {"nombre":"Harumakis",
+        "ingredientes": "Crocantes arrolladitos primavera rellenos de carne",
+        "link":"harumakis" 
+
+
+     },
+     {"nombre":"Gyozas",
+        "ingredientes": "Tiernos ravioles de carne de cerdo y verdeo japonés ",
+        "link":"gyozas" 
+
+
+     },
+     {"nombre":"Karaague",
+        "ingredientes": "Crocantes bocaditos de pollo rebozados y fritos.",
+        "link":"karaague" 
+
+
+     }
+       
+    
+    
+
+ ]

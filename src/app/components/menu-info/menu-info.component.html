@@ -1,0 +1,18 @@
+<section class='menu'>
+
+    
+
+    <div class="menu-container">
+        <div class="entradas-container">
+            <h2>Entradas</h2>
+            <div class="entradas-box">
+                    <div *ngFor = 'let entrada of entradas' class='entrada'> 
+                        <h3>{{entrada.nombre}}</h3>
+                        <img src=" ../../../assets/img/entradas/{{entrada.link}}.jpg" alt="" srcset="">
+                        <p>{{entrada.ingredientes}}</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -12,19 +12,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar]);
 
 @Component({
   selector: 'app-slider',
-  template: `
-    <swiper
-    [slidesPerView]="3"
-    [spaceBetween]="50"
-    (swiper)="onSwiper($event)"
-    (slideChange)="onSlideChange()"
-      
-    >
-      <ng-template swiperSlide>Slide 1</ng-template>
-      <ng-template swiperSlide>Slide 2</ng-template>
-      <ng-template swiperSlide>Slide 3</ng-template>
-    </swiper>
-  `,
+  templateUrl: './slider.component.html',
+  styleUrls: ['./slider.component.scss']
 })
 export class SliderComponent {
   onSwiper(swiper:any) {
@@ -33,5 +22,28 @@ export class SliderComponent {
   onSlideChange() {
     console.log('slide change');
   }
+
+
+  //Swiper Config options
+  swiperConfig = {
+    loop:true,
+  breakpoints: {
+    1024: {
+      slidesPerView: 3,
+    },
+    500: {
+      slidesPerView: 3,
+    },
+    400: {
+      slidesPerView: 2,
+    },
+    300: {
+      slidesPerView: 1,
+    },
+  },
+  
+};
+
+
 }
 
