@@ -27,6 +27,7 @@ export class SliderComponent {
   //Swiper Config options
   swiperConfig = {
     loop:true,
+   
   breakpoints: {
     1024: {
       slidesPerView: 3,

@@ -1,18 +1,19 @@
- <swiper     [slidesPerView]="3"
-            [config]="swiperConfig"
-            (swiper)="onSwiper($event)"
-            (slideChange)="onSlideChange()"
-            class='swiper-wrapper'
-            [loop]='true'
-            [navigation]="true"
-            [pagination]="{ clickable: true }"
-            [scrollbar]="{ draggable: true }"
  
+ <main>
+     <h2>Nuestro  <span>Staff</span> </h2>
+  
+ <swiper    
+           
+            [config]="swiperConfig"
+           
+            class='swiper-wrapper'
+           
+            
     >
 
 
     
-        <ng-template   [config]="swiperConfig" swiperSlide class='swiper-slide' *ngFor='let colaborador of staff ;let i = index ' >
+        <ng-template    swiperSlide class='swiper-slide' *ngFor='let colaborador of staff ;let i = index ' >
                     <div >
                         <h3>{{colaborador.name | titlecase}}</h3>
                         <p> {{colaborador.email}}</p>
@@ -21,6 +22,10 @@
             </ng-template>
      
 </swiper> 
+
+
+
+</main>
 
 
 

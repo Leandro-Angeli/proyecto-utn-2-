@@ -19,24 +19,24 @@ export class StaffMainComponent implements OnInit {
   constructor(private fetchservice:FetchService) { }
   staff:any
 
-  onSwiper(swiper:any) {
-    console.log(swiper);
-  }
-  onSlideChange() {
-    console.log('slide change');
-  }
 
-
-  public swiperConfig:any = {
-    slidesPerView: 'auto',
-    spaceBetween: 20,
+   swiperConfig = {
+    slidesPerView: 4,
+    pagination:true,
+    scrollbar: true,
+    navigation:true,
+   
+    
+    loop:true,
     breakpoints:{
-      992:{
-           slidesPerView: 4, 
-          }
+     
    }
   } 
+
+  
   ngOnInit(): void {
+   
+    
 
    
 
