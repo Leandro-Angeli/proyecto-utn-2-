@@ -31,6 +31,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { MenuInfoComponent } from './components/menu-info/menu-info.component';
 import { StaffHeaderComponent } from './components/staff-header/staff-header.component';
 import { StaffMainComponent } from './components/staff-main/staff-main.component';
+import { SucursalesMainComponent } from './components/sucursales-main/sucursales-main.component';
+import { LocalesComponent } from './components/locales/locales.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +62,9 @@ import { StaffMainComponent } from './components/staff-main/staff-main.component
     MenuMainComponent,
     MenuInfoComponent,
     StaffHeaderComponent,
-    StaffMainComponent
+    StaffMainComponent,
+    SucursalesMainComponent,
+    LocalesComponent
 
   ],
   imports: [

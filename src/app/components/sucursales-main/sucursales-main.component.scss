@@ -1,0 +1,46 @@
+.sucursales-header{ background-image: url('../../../assets/img/sucursales.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--default-top-padding);
+    width: 100%;
+    height: var(--section-height);
+    position: relative;
+    text-align: center;
+   
+  
+   }
+
+.sucursales-header::before{content: '';
+    position: absolute;  
+    background-image:url('../../../assets/img/pattern-us-background.png');
+    display:block;
+    width:100%;
+    height: 100%;
+    top: 0;
+  
+
+}
+
+.sucursales-title
+{ 
+color:var(--white);
+display:inline-block;
+font-family: 'Courgette', sans-serif;
+
+z-index: 1;
+font-size: 10vw;
+text-shadow:
+-.5px -.5px 0 var(--black),  
+.5px -.5px 0 var(--black),
+-.5px .5px 0 var(--black),
+.5px .5px 0 var(--black);
+
+}  
+.sucursales-title span {font-family: 'Courgette', sans-serif; 
+    color:var(--red);
+    
+
+}

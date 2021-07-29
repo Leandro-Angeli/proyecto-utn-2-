@@ -51,8 +51,9 @@
              
   }
  .about-text-left,
- .about-text-right{width:45%;
-    line-height: 1.5rem;
+ .about-text-right{    line-height: 1.5rem;
+                        flex: .5 1 300px;
+                      line-height: 1.5rem;
 
   }
 

@@ -1,0 +1,14 @@
+
+<section class="locales">
+<h2>Locales</h2>
+
+<div class="locales-container">
+
+    <div  *ngFor='let local of locales' class='local-box'>
+        <h3><object aria-label="this object has en icon" data="../../../assets/img/rollo-de-sushi.svg"  type="image/svg+xml" alt='icon' aria-role='icon'>roll icon</object>  {{local.localidad | uppercase}}</h3>
+        <img src="../../../assets/img/logosucursales.png" alt="" srcset="">
+        <p>{{local.direccion | titlecase}} </p>
+    </div>
+</div>
+
+</section>
