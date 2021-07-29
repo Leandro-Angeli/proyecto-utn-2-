@@ -29,10 +29,10 @@ export class StaffMainComponent implements OnInit {
     
     loop:true,
     breakpoints:{
-     0:{slidesPerView: 1
+     0:{slidesPerView: 2
 
       },
-      500:{slidesPerView: 3,
+      650:{slidesPerView: 3,
       
       },
       1200:{  slidesPerView: 4,
