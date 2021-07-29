@@ -21,7 +21,7 @@ export class StaffMainComponent implements OnInit {
 
 
    swiperConfig = {
-    slidesPerView: 4,
+   
     pagination:true,
     scrollbar: true,
     navigation:true,
@@ -29,8 +29,18 @@ export class StaffMainComponent implements OnInit {
     
     loop:true,
     breakpoints:{
+     0:{slidesPerView: 1
+
+      },
+      500:{slidesPerView: 3,
+      
+      },
+      1200:{  slidesPerView: 4,
+
+       }
      
    }
+ 
   } 
 
   
