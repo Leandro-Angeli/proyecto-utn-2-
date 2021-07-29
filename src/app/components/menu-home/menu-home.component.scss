@@ -1,3 +1,4 @@
+@import 'animate' ;
 /* MENU START */
 .menu{ padding:var(--default-padding); 
     padding-top: var(--default-top-padding);  
@@ -7,10 +8,14 @@
   .menu-title{border-bottom:1px solid;
               display:inline-block;
               color: var(--white);
+            
+
   
   
    }
+ 
   .menu-title, .menu-title span{font-family: var(--title-font);
+                                              
                               
   
   

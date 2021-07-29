@@ -1,3 +1,4 @@
+
 .header{ background-image:linear-gradient(
     282deg
     , #b7b4b436, #02020275), url('../../../assets/img/menubg.jpg');
@@ -38,11 +39,14 @@
       -.5px .5px 0 var(--black),
        .5px .5px 0 var(--black);
        text-align: center;
+      
+  
   
    }
    
    .hero-title span,.promo-title span {font-family: 'Courgette', sans-serif;
             color:var(--red);
+          
   
    }
    .us-title{z-index: 1;
