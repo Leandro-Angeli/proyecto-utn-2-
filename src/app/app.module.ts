@@ -33,6 +33,7 @@ import { StaffHeaderComponent } from './components/staff-header/staff-header.com
 import { StaffMainComponent } from './components/staff-main/staff-main.component';
 import { SucursalesMainComponent } from './components/sucursales-main/sucursales-main.component';
 import { LocalesComponent } from './components/locales/locales.component';
+import { ContactoHeaderComponent } from './components/contacto-header/contacto-header.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { LocalesComponent } from './components/locales/locales.component';
     StaffHeaderComponent,
     StaffMainComponent,
     SucursalesMainComponent,
-    LocalesComponent
+    LocalesComponent,
+    ContactoHeaderComponent
 
   ],
   imports: [
