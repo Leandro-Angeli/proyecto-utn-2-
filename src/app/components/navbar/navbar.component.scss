@@ -78,6 +78,24 @@ margin-left: auto;
              
 
 }
+.skip{    height: 1px;
+        font-size: 1px;
+        width: 1px;
+        padding: 0;
+        opacity: 0;
+
+ }
+.skip:focus{color: var(--red);
+        background-color:whitesmoke;
+        padding:10px;
+        border-radius: 2px;
+        height: auto;
+        font-size: 1rem;
+        width:auto;
+        opacity: 1;
+        
+
+ }
 
 /* SHOW HIDE MENU*/ 
 

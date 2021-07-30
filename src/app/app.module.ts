@@ -35,6 +35,7 @@ import { SucursalesMainComponent } from './components/sucursales-main/sucursales
 import { LocalesComponent } from './components/locales/locales.component';
 import { ContactoHeaderComponent } from './components/contacto-header/contacto-header.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,7 +67,8 @@ import { ContactoHeaderComponent } from './components/contacto-header/contacto-h
     StaffMainComponent,
     SucursalesMainComponent,
     LocalesComponent,
-    ContactoHeaderComponent
+    ContactoHeaderComponent,
+   
 
   ],
   imports: [
