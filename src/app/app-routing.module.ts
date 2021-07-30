@@ -16,7 +16,7 @@ const routes: Routes = [
   {path:'promociones',component:PromocionesComponent},
   {path:'sucursales',component:SucursalesComponent},
   {path:'contacto',component:ContactoComponent},
-  {path:'/',redirectTo:'home',pathMatch: 'full'},
+  {path:'',redirectTo:'home',pathMatch: 'full'},
  
 ];
 
