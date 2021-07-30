@@ -8,6 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Fetch json local
 ### Fetch Api externa
 ### Swiper.js
+### clip path
+### keyframes
+
 ## Development server
 
 ## Sitio Responsive
