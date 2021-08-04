@@ -55,12 +55,11 @@
 
 
 
-
-
- @media (max-width:1399.98px){
+   @media (max-width:1399.98px){
     .us-header{ background-image: url('../../../assets/img/background-header-us-md.jpg');
       }
    }  
+ 
 
  @media (max-width:767.98px){
 .us-header{ background-image: url('../../../assets/img/background-header-us-sm.jpg');
@@ -70,3 +69,11 @@
 }
 
  }
+
+
+ @media (max-width:480px){
+  h1, .us-title{font-size:20vw;
+
+  }
+
+}

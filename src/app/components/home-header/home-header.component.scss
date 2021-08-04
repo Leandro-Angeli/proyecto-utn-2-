@@ -64,14 +64,27 @@
     }
   
    /* header HOME END */
-
+   @media (max-width:480px){
+   
+    
+    .hero-title{ font-size: 22vw;
+  
+      }  
+   
+  
+ 
+  }
 
    @media (max-width:575.98px){
     .header{  background-image:linear-gradient(
      282deg
      , #b7b4b436, #02020275), url('../../../assets/img/background-mobile-compressed.jpg');
-  
+    
      }
+    
   
    
    }
+  
+
+   

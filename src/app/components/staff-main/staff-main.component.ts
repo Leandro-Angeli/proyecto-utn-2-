@@ -25,7 +25,7 @@ export class StaffMainComponent implements OnInit {
     pagination:true,
     scrollbar: true,
     navigation:true,
-   
+    autoplay: {delay: 5000,},
     
     loop:true,
     breakpoints:{
