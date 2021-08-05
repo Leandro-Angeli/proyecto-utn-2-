@@ -2,11 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
-## Recursos utilizados
+## Pautas Opcionales:
 ### Sass
 ### Angular 
 ### Fetch json local
 ### Fetch Api externa
+### Sitio Responsive
 ### Swiper.js
 ### clip path
 ### keyframes
