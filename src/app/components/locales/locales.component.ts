@@ -12,7 +12,7 @@ export class LocalesComponent implements OnInit {
   ngOnInit(): void {
     this.fetchservice.fetchData('../../../assets/data/sucursales.json')
     .subscribe((response)=>{
-      console.log(response);
+     
       this.locales=response;
       
     })

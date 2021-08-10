@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
 
 // import Swiper core and required modules
 // Import Swiper and modules
-import SwiperCore, { Navigation, Pagination, Scrollbar } from 'swiper/core';
+import SwiperCore, { Navigation, Pagination, Scrollbar,Autoplay } from 'swiper/core';
 import { SwiperModule } from 'swiper/angular';
 
 // Install modules
-SwiperCore.use([Navigation, Pagination, Scrollbar]);
+SwiperCore.use([Navigation, Pagination, Scrollbar,Autoplay]);
 
 @Component({
   selector: 'app-slider',
@@ -17,16 +17,20 @@ SwiperCore.use([Navigation, Pagination, Scrollbar]);
 })
 export class SliderComponent {
   onSwiper(swiper:any) {
-    console.log(swiper);
+  
   }
   onSlideChange() {
-    console.log('slide change');
+    
   }
 
 
   //Swiper Config options
   swiperConfig = {
     loop:true,
+    autoplay: {
+      delay: 1000,
+    },
+    
    
   breakpoints: {
     1024: {

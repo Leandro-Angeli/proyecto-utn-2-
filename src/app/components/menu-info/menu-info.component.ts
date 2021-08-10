@@ -16,21 +16,21 @@ export class MenuInfoComponent implements OnInit {
   ngOnInit(): void {
     this.fetchservice.fetchData('../../../assets/data/entradas.json')
     .subscribe((response)=>{
-      console.log(response);
+    
       this.entradas=response;
       
     })
 
     this.fetchservice.fetchData('../../../assets/data/rolls.json')
     .subscribe((response)=>{
-      console.log(response);
+    
       this.rolls=response;
       
     })
 
     this.fetchservice.fetchData('../../../assets/data/shiros.json')
     .subscribe((response)=>{
-      console.log(response);
+    
       this.shiros=response;
       
     })

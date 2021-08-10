@@ -57,7 +57,7 @@ export class StaffMainComponent implements OnInit {
 
     this.fetchservice.fetchData('https://jsonplaceholder.typicode.com/users')
   .subscribe((response)=>{
-    console.log(response);
+   
     this.staff=response;
 
   })
