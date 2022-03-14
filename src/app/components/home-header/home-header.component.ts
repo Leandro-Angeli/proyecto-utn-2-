@@ -6,10 +6,7 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./home-header.component.scss'],
 })
 export class HomeHeaderComponent implements OnInit {
-  env: string = '';
-  constructor() {
-    this.env = environment.test;
-  }
+  constructor() {}
 
   ngOnInit(): void {}
 }
